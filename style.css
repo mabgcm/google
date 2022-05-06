@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    /* border: 1px cyan solid; */
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col-8 {
+    position: relative;
+    top: 0;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.col-4 {
+    position: relative;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    display: flex;
+    justify-content:flex-start;
+    padding: 20px;
+}
+.col-8 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-4 ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.col-8 ul li {
+    list-style: none;
+    margin-left: 20px;
+}
+.col-4 ul li {
+    list-style: none;
+    margin-right: 20px;
+}
+.col-8 ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+.col-4 ul li a {
+    color: #111;
+    text-decoration: none;
+    font-size: 13px;
+}
+.col-8 ul li button {
+    background: #4584ef;
+    border: none;
+    outline: none;
+    padding: 8px 14px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.col-8 ul li a img {
+    width: 22px;
+}
+#logo {
+    width: 200px;
+}
+.container .main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+}
+.icons img {
+    width: 20px;
+}
+.container .main .searchBox {
+    position: relative;
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+/* LAST 3 IS TO CENTER EVERYTHING */
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+.container .main .searchBox .search {
+    width: 55%;
+    padding: 13px;
+    padding-left: 45px;
+    padding-right: 60px;
+    border-radius: 30px;
+    border: 1px solid #ccc;
+    outline: none;
+    font-size: 16px;
+}
+.container .main .searchBox .icons {
+    position: absolute;
+    top: 0;
+    width: 55%;
+    display: flex;
+    padding: 12px 20px;
+    justify-content: space-between;
+    align-items: center;
+    pointer-events: none;
+}
+.container .main .buttons {
+    margin-top: 20px;
+}
+.container .main .buttons button {
+    margin: 0 5px;
+    padding: 12px 20px;
+    color: 555;
+    font-size: 14px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.container .main .languages {
+    margin-top: 20px;
+    font-size: 14px;
+}
